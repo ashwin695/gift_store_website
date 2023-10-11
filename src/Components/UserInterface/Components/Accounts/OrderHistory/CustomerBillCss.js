@@ -1,0 +1,111 @@
+import { makeStyles } from "@mui/styles";
+
+const useStyles = makeStyles({
+    root:{
+        display:'flex',
+        alignItems:'center',
+        justifyContent:'space-between',
+    },
+    function:{
+        margin:10,
+        padding:15,
+        width:'100%',
+    },
+    fnhd:{
+        fontWeight:700,
+        fontSize:20,
+        margin:10,
+        color:'#e52c86',
+    },
+    lnth:{
+        fontSize:18,
+        fontWeight:600,
+        color:'#e52c86',
+        margin:'0% 2% 0% 0%',
+        fontFamily:'sans-serif'
+    },
+    divider:{
+        backgroundColor:'#e52c86',
+        height:2
+    },
+    deliveryhead:{
+        fontWeight:700,
+        fontSize:18,
+        fontFamily:'sans-serif',
+        color:'#e52c86',
+    }, 
+    name:{
+        fontWeight:600,
+        fontSize:16,
+        padding:2,
+        color:'#2f3640'
+    },
+    address:{
+        fontSize:13,
+        padding:2.5,
+        color:'#636e72',
+        fontFamily:'sans-serif'
+    },
+    orderitems:{
+        display:'flex',
+        flexDirection:'row',
+        padding:'0.5% 0% 0.5% 1%',
+        fontSize:18, 
+        fontWeight:600
+    },
+    productname:{
+        fontWeight:600,
+        fontSize:18, 
+        margin:'0% 0% 2% 0%',
+        cursor:'pointer'
+    },
+    productdetails:{
+        fontWeight:500,
+        fontSize:13,
+        color:'gray'
+    },
+    orderstatus:{
+        fontWeight:700,
+        fontSize:14,
+        color:'#e52c86'
+    },
+    price:{
+        fontWeight:550,
+        fontSize:16,
+        fontFamily:'sans-serif',
+        //color:'#2c3e50'
+    },
+    cutprice:{
+        padding:'0% 0% 0% 0%',
+        fontSize:13
+    },
+    discount:{
+        color: '#27ae60',
+        fontSize:16,
+        fontWeight:700
+    },
+    amtdesc:{
+        fontSize:16,
+        fontWeight:700
+    },
+    row:{
+        display:'flex',
+        flexDirection:'row'
+    },
+    cancelhead:{
+        fontSize:20,
+        color:'#e52c86',
+        fontWeight:600
+    },
+    cancelname:{
+        fontWeight:600,
+        color:'#2f3640'
+    },
+    cancelled:{
+        fontFamily:'sans-serif', 
+        color:'grey', 
+        paddingTop:10
+    }
+})
+
+export default useStyles
